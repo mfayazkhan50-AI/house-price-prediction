@@ -1,2 +1,45 @@
-# house-price-prediction
-End-to-end machine learning pipeline for house price prediction with a Streamlit interface.
+# 🏠 House Price Prediction App
+
+This project uses a trained Random Forest model to estimate house prices and wraps everything in a simple Streamlit interface. It’s a small end-to-end demo showing how an ML model can be turned into an interactive web app.
+
+## 🚀 Live Demo
+
+(You can add your Streamlit deployment link here once it’s live.)
+
+## 📌 What’s Inside
+
+Predicts house prices based on user-provided inputs
+
+Straightforward Streamlit UI
+
+Uses a pre-trained model (housepriceprediction.pkl)
+
+Supports encoded categorical features
+
+Runs quickly and doesn’t require heavy hardware
+
+## 🧠 Model Info
+
+Model: Random Forest (with tuning)
+
+Accuracy: ~88%
+
+Files:
+
+housepriceprediction.pkl
+
+feature_names.pkl
+
+## 📂 Project Structure
+app.py
+requirements.txt
+housepriceprediction.pkl
+feature_names.pkl
+
+## ▶️ Running the Project Locally
+pip install -r requirements.txt
+streamlit run app.py
+
+## 📜 License
+
+MIT License
