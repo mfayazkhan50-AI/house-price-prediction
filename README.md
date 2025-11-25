@@ -4,7 +4,7 @@ This project uses a trained Random Forest model to estimate house prices and wra
 
 ## 🚀 Live Demo
 
-(You can add your Streamlit deployment link here once it’s live.)
+https://smart-house-price-app.streamlit.app/
 
 ## 📌 What’s Inside
 
